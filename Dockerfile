@@ -1,4 +1,4 @@
-FROM quay.io/prometheus/busybox:latest
+FROM registry.access.redhat.com/ubi8/ubi-minimal
 
 ADD prometheus-example-app /bin/prometheus-example-app
 
